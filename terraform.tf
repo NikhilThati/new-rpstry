@@ -20,7 +20,7 @@ resource "aws_db_instance" "default" {
   engine_version       = "5.7"
   instance_class       = "db.t2.micro"
   name                 = "cpms"
-  identifier           = "myrdb2"
+  identifier           = "myrdb5"
   username             = "admin"
   password             = "nikhil123"
   parameter_group_name = "default.mysql5.7"
